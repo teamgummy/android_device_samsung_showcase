@@ -1,4 +1,4 @@
-ifeq ($(TARGET_DEVICE),fascinatemtd)
+ifeq ($(TARGET_DEVICE),showcasemtd)
 
 LOCAL_PATH:= $(call my-dir)
 
