@@ -77,6 +77,7 @@ BOARD_KERNEL_CMDLINE := console=ttyFIQ0,115200 init=/init no_console_suspend
 
 # Inline kernel, and prebuilt info
 TARGET_KERNEL_CONFIG := cyanogenmod_fascinatemtd_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/aries
 TARGET_PREBUILT_KERNEL := device/samsung/fascinatemtd/kernel
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 7864320
